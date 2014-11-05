@@ -1,0 +1,9 @@
+#Write your rules here
+#Use python Regular expressions syntax
+#can be found at this URL : http://docs.python.org/2/library/re.html
+^Craig Ferguson 2013.+720p HDTV x264-2HD$
+^Spartacus (SE) 720p HDTV x264-EVOLVE$
+^American Dad (SE) 720p HDTV X264-DIMENSION$
+^Bandekrigerne E01 720p HDTV x264-TVBYEN$
+^NHL 2013 Stanley Cup R[0-9]G[0-9] Red Wings vs Ducks 720p HDTV x264-PRiNCE$
+^NHL 2013 Stanley Cup R[0-9]G[0-9] Bruins vs Maple Leafs 720p HDTV x264-PRiNCE$

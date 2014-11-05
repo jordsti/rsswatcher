@@ -1,0 +1,23 @@
+TESTING PHASE
+ * Support UrlOpen TimeOut -> Done , testing
+ * Add a string like (SE) to replace it with the classic Season Episode tag -> S00E00 = (SE) -> Done, testing
+ * Add support for other bittorrent client ; 
+	-> First : uTorrent
+		#uTorrent Launch bug -> need to check if the torrent path is absolute, Fixed
+		#Hint : utorrent.exe /DIRECTORY "SAVE PATH" ".TORRENT FILE TO OPEN"
+		#Need to implement utorrent.exe finder, seem to work
+ * FileSplitter Bug
+	-> Basename plz, absolute path stored in the metadata
+	-> Basename again, on merging, file can't be rename CUZ OF ABS PATH!
+	-> FIX METADATA : ABS PATH!!!
+ * refresh rules at each tick, to load new rule(s)
+ * Log files
+FUTURE FEATURES
+ * Notification ?? Email, website, not sure atm
+	-> Email; via a stmp server
+	-> Http front-end: showing last started torrent and tick
+ * independant text file for configuration
+ * Add the Logger to the BitTorrent Client Handler, to log launch of torrent
+
+THERE WILL BE BUGS !!!!
+
